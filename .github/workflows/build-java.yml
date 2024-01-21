@@ -1,9 +1,9 @@
 name: build java app
 
 on:
- push :
-   branches: 
-    - master
+  push :
+    branches: 
+      - master
 
 env:
   java_version= "11"
