@@ -1,13 +1,13 @@
 name: build java app
 
-push on:
-  - trigger
+on:
+ push :
 
 env:
   java_version= "11"
 
 jobs:
-  build:
+  java-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
