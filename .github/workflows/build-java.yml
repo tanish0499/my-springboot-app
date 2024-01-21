@@ -18,8 +18,9 @@ jobs:
           java_version = '11'
           distribution = 'terumin'
 
-    - name: build java
-    - run: |
-      mvn -v
-      mvn -b package 
+      - name: build java
+        run: |
+          mvn -v
+          mvn -b package     
+
 
